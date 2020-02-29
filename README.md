@@ -23,4 +23,5 @@ To start the game, either launch the desktop launcher or run `freedoom` from the
 ## Links
 
 [Official Freedoom Page](https://freedoom.github.io)
+
 [Freedoom GitHub repository](https://github.com/freedoom/freedoom)
