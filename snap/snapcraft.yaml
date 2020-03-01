@@ -1,5 +1,4 @@
 name: freedoom
-base: core18
 version: 0.12.1
 summary: A free and open First-Person Shooter
 description: |
@@ -11,6 +10,17 @@ license: "BSD-3-Clause"
 
 grade: stable
 confinement: strict
+base: core18
+assumes:
+- snapd2.41
+
+# auto-build architectures
+architectures:
+  -build-on: [i386]
+  -build-on: [amd64]
+  -build-on: [armhf]
+  -build-on: [arm64]
+  -build-on: [ppc64el]
 
 apps:
   freedoom:
